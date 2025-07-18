@@ -4,7 +4,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # Define variables
-readonly ZABBIX_URL="https://repo.zabbix.com/zabbix/7.2/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest+ubuntu22.04_all.deb"
+readonly ZABBIX_URL="https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu22.04_all.deb"
 readonly ZABBIX_DEB="/tmp/zabbix-release_latest+ubuntu22.04_all.deb"
 readonly MARIADB_CONF="/etc/mysql/mariadb.conf.d/zbxupgrade.cnf"
 readonly LOG_FILE="/var/log/zabbix_upgrade.log"
